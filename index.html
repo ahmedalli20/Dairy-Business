@@ -30,39 +30,50 @@
 
         <div class="manage">
             <h2>Manage your dairy the professional way</h2>
-            <p>Farm dairy management website  enables youto handle a large herd <br>
+            <p>Farm dairy management website enables youto handle a large herd <br>
                 of animals in real-time. It lets you manage your dairy farm more efficiently and economically.
             </p>
-                <h2>Why Dairy Farm Management </h2>
-                <p> It enables you to monitor daily milk production records for your entire <br>
-                    cattle herd, but also it allows you to maintain daily, weekly and monthly <br>
-                    summaries, like total yield per day, total yield per month, average milk <br>
-                    per cow, month wise lowest and highest yields, etc.
-                </p>
-            
+            <h2>Why Dairy Farm Management </h2>
+            <p> It enables you to monitor daily milk production records for your entire <br>
+                cattle herd, but also it allows you to maintain daily, weekly and monthly <br>
+                summaries, like total yield per day, total yield per month, average milk <br>
+                per cow, month wise lowest and highest yields, etc.
+            </p>
+
         </div>
 
         <img src="./images/milk.jpg" alt="">
-        <!-- 
+        <!--         
        
         <img src="./images/image4.webp" alt="">
         <img src="./images/image1.jpg" alt="">
         <img src="./images/milking.jpeg" alt=""> -->
     </div>
 
+    <hr>
+    <div class="shed"  id="form">
+        <h1>Calculating milk produced </h1>
+        <p>Shed One <input id="input1" type="number" placeholder="Shed A"></p><br>
+        <p>Shed Two <input id="input2" type="number" placeholder="Shed B"></p><br>
+        <p>Shed Three <input id="input3" type="number" placeholder="Shed c"></p><br>
+        <p>Shed Four <input  id="input4"  type="number" placeholder=" Shed D"></p><br>
+        <label> Price Per Litre <input type="number" placeholder="Price Per Litre"></p></label><br>
+       <button id="myBtn" onclick="totalProduction()">Total Production</button>
+        <div class="choices">
+            <h3>Choose the time period</h3>
 
-    <!-- <div class="shed">
-        <h1></h1>
-        <p>Shed one<input type="number" placeholder=""></p><br>
-        <p>Shed one<input type="number" placeholder=""></p><br>
-        <p>Shed one<input type="number" placeholder=""></p><br>
-        <p>Shed one<input type="number" placeholder=""></p><br>
-        <p>Price Per Litre<input type="number" placeholder=""></p><br>
-         
+            <input type="radio" name="weekly" id="choice"><label>weekly</label>
+            <input type="radio" name="weekly" id="choice"><label>Monthly</label>
+            <input type="radio" name="weekly" id="choice"><label>yearly</label>
+        </div>
     </div>
- -->
 
-    .
+    <div class="output">
+        <p>Output</p>
+        <p id="display"></p>
+    </div>
+    
+  
 
 
 
