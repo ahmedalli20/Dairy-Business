@@ -70,7 +70,7 @@ button:hover {
 
 .home {
     /* background-image: url("./images/Dairy-cows-scaled.jpg"); */
-    background-image: url("./images/image1.jpg");
+    background-image: url("./images/milk.jpg");
     display: flex;
 
 
@@ -102,7 +102,7 @@ hr {
 
 .shed {
     display: block;
-    margin: 50px 220px;
+    margin: 50px 120px 20px 120px;
     width: 100%;
 
 
@@ -117,6 +117,11 @@ hr {
 .shed ::placeholder {
     font-size: 18px;
     color: rgb(14, 10, 10);
+}
+
+.choices{
+    margin-left: 180px;
+    margin-bottom: 20px;
 }
 
 .choices h3 {
@@ -147,4 +152,9 @@ hr {
 
 .shedproduce {
     display: flex;
+}
+
+.butons{
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
