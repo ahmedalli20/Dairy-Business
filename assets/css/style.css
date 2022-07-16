@@ -103,23 +103,20 @@ hr {
 .shed {
     display: block;
     margin: 50px 220px;
-    left: 30%;
+    width: 100%;
+
 
 }
 
-.shed p {
-    font-size: 20px;
-    margin: 10px;
-}
 
 .shed input {
     font-size: 30px;
-    /* width: 250px; */
+    margin: 20px;
 }
 
-.shed ::placeholder{
-    font-size: 20px;
-    color: rgb(172, 165, 165);
+.shed ::placeholder {
+    font-size: 18px;
+    color: rgb(14, 10, 10);
 }
 
 .choices h3 {
@@ -137,13 +134,17 @@ hr {
     height: 20px;
 }
 
-.output{
-    margin-left: 150px;
-    width: 50%;
+.output {
+    margin-right: 40px;
+    width: 100%;
     background-color: aqua;
     margin-bottom: 80px;
-   padding: 50px 50px;
-   line-height: 40px;
-   font-size: 30px;
+    padding: 70px;
+    line-height: 40px;
+    font-size: 30px;
 
+}
+
+.shedproduce {
+    display: flex;
 }
