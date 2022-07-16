@@ -34,69 +34,116 @@ header {
 
 .navlinks {
     list-style: none;
-   
+
 }
 
-.navlinks li{
+.navlinks li {
     display: inline-block;
     padding: 0 20px;
-   
-}
-
-.navlinks li a{
-     transition: all 0.3s ease 0s;
-     color: white;
 
 }
 
-.navlinks li a:hover{
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+
+}
+
+.navlinks li a:hover {
     color: #0088a9;
 }
-button{
+
+button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
+    font-size: 25px;
     color: white;
     border: none;
     border-radius: 40px;
-    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-    background-color: rgba (0,136,169,0.9);
+button:hover {
+    background-color: rgba (0, 136, 169, 0.9);
 }
 
 
-.home{
+.home {
     /* background-image: url("./images/Dairy-cows-scaled.jpg"); */
     background-image: url("./images/image1.jpg");
     display: flex;
-    
+
 
 }
-.manage{
+
+.manage {
     margin-left: 50px;
     width: 50%;
 }
 
-.manage h2{
+.manage h2 {
     font-size: 40px;
     margin: 15px 15px;
 }
 
-.manage p{
+.manage p {
     font-size: 30px;
     line-height: 40px;
 }
-  .home img {
-    width : 45%;
-  }
 
+.home img {
+    width: 45%;
+}
 
+hr {
+    margin: 20px 7px;
+    font-size: 120px;
+}
 
- /* .shed{
-     display: block; 
-    margin: 50px 20px;
+.shed {
+    display: block;
+    margin: 50px 220px;
     left: 30%;
-    
-}  */
+
+}
+
+.shed p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.shed input {
+    font-size: 30px;
+    /* width: 250px; */
+}
+
+.shed ::placeholder{
+    font-size: 20px;
+    color: rgb(172, 165, 165);
+}
+
+.choices h3 {
+    margin: 10px;
+    font-size: x-large;
+
+}
+
+.choices label {
+    font-size: 30px;
+}
+
+.choices input {
+    width: 20px;
+    height: 20px;
+}
+
+.output{
+    margin-left: 150px;
+    width: 50%;
+    background-color: aqua;
+    margin-bottom: 80px;
+   padding: 50px 50px;
+   line-height: 40px;
+   font-size: 30px;
+
+}
