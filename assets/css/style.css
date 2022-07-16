@@ -21,11 +21,14 @@ header {
     align-items: center;
     padding: 30px 10%;
     background-color: black;
+    margin-bottom: 40px;
 }
 
 .logo {
     cursor: pointer;
     color: white;
+    font-style: oblique;
+    font-size: 30px;
 
 }
 
@@ -62,3 +65,38 @@ button{
 button:hover{
     background-color: rgba (0,136,169,0.9);
 }
+
+
+.home{
+    /* background-image: url("./images/Dairy-cows-scaled.jpg"); */
+    background-image: url("./images/image1.jpg");
+    display: flex;
+    
+
+}
+.manage{
+    margin-left: 50px;
+    width: 50%;
+}
+
+.manage h2{
+    font-size: 40px;
+    margin: 15px 15px;
+}
+
+.manage p{
+    font-size: 30px;
+    line-height: 40px;
+}
+  .home img {
+    width : 45%;
+  }
+
+
+
+ /* .shed{
+     display: block; 
+    margin: 50px 20px;
+    left: 30%;
+    
+}  */
