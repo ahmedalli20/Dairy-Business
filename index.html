@@ -59,7 +59,6 @@
             Shed Three <input id="input3" type="number" placeholder="Shed c"><br>
             Shed Four <input id="input4" type="number" placeholder=" Shed D"><br>
             Price per litre<input id="input5" type="number" placeholder="Price Per Litre"></p><br>
-            <button id="myBtn" onclick="totalProduction()">Total Production</button>
         </div>
         <div class="output">
             <p id="display"></p>
@@ -67,16 +66,15 @@
     </div>
     <div class="choices">
         <h3>Choose the time period</h3>
-        <input type="radio" name="weekly" id="choice"><label>weekly</label>
-        <input type="radio" name="weekly" id="choice"><label>Monthly</label>
-        <input type="radio" name="weekly" id="choice"><label>yearly</label>
+        <input type="radio" name="choice" id="weekly" value="weekly"><label>weekly</label>
+        <input type="radio" name="choice" id="yearly" value="yearly"><label>yearly</label>
     </div>
+    <div class="butons">
+        <button id="myBtn" onclick="totalProduction()">Total Production</button>
+        <button id="myBtn2" onclick="calculateIncome()">Calculate Income</button>
+        <button id="myBtn4" onclick="incomeLeapYear()"> Income leap year </button>
 
-    <button id="myBtn" onclick="totalProduction()">Total income weekly</button>
-    <button id="myBtn" onclick="totalProduction()">Total income monthly </button>
-
-
-
+    </div>
 
 
 
