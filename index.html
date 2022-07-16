@@ -51,29 +51,32 @@
     </div>
 
     <hr>
-    <div class="shed"  id="form">
-        <h1>Calculating milk produced </h1>
-        <p>Shed One <input id="input1" type="number" placeholder="Shed A"></p><br>
-        <p>Shed Two <input id="input2" type="number" placeholder="Shed B"></p><br>
-        <p>Shed Three <input id="input3" type="number" placeholder="Shed c"></p><br>
-        <p>Shed Four <input  id="input4"  type="number" placeholder=" Shed D"></p><br>
-        <label> Price Per Litre <input type="number" placeholder="Price Per Litre"></p></label><br>
-       <button id="myBtn" onclick="totalProduction()">Total Production</button>
-        <div class="choices">
-            <h3>Choose the time period</h3>
-
-            <input type="radio" name="weekly" id="choice"><label>weekly</label>
-            <input type="radio" name="weekly" id="choice"><label>Monthly</label>
-            <input type="radio" name="weekly" id="choice"><label>yearly</label>
+    <div class="shedproduce">
+        <div class="shed" id="form">
+            <h1>Calculating milk produced </h1>
+            Shed One <input id="input1" type="number" placeholder="Shed A"><br>
+            Shed Two <input id="input2" type="number" placeholder="Shed B"><br>
+            Shed Three <input id="input3" type="number" placeholder="Shed c"><br>
+            Shed Four <input id="input4" type="number" placeholder=" Shed D"><br>
+            Price per litre<input id="input5" type="number" placeholder="Price Per Litre"></p><br>
+            <button id="myBtn" onclick="totalProduction()">Total Production</button>
+        </div>
+        <div class="output">
+            <p id="display"></p>
         </div>
     </div>
-
-    <div class="output">
-        <p>Output</p>
-        <p id="display"></p>
+    <div class="choices">
+        <h3>Choose the time period</h3>
+        <input type="radio" name="weekly" id="choice"><label>weekly</label>
+        <input type="radio" name="weekly" id="choice"><label>Monthly</label>
+        <input type="radio" name="weekly" id="choice"><label>yearly</label>
     </div>
-    
-  
+
+    <button id="myBtn" onclick="totalProduction()">Total income weekly</button>
+    <button id="myBtn" onclick="totalProduction()">Total income monthly </button>
+
+
+
 
 
 
