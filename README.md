@@ -3,7 +3,7 @@
 ## By Ahmed Ali
 
 ## screenshot
-![website image](/home/moringa/Pictures/dairyfarm.png")
+![website image](/home/moringa/Pictures/dairyfarm.png)
 
 ## Table Of Content
 
