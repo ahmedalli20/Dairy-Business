@@ -2,6 +2,8 @@
 
 ## By Ahmed Ali
 
+## screenshot
+![website image](/home/moringa/Pictures/dairyfarm.png")
 
 ## Table Of Content
 
@@ -13,25 +15,31 @@
    * [Technology Used](#technology-used)
    * [Licence](#licence)
 
-# Description
+## Description
+  This  a website that helps the dairy famers to know how many litres of milk they produce per day and how much money or income they will make either weekly or yearly .
 
+## Features
+  As a user of the web app,you will be able to :
+   * 1.to input the amount of litres produced in each shed.  
+   * 2.the user will view the out put of the total litres produced daily.
+   * 3.Also users will be able to view thw income earned weekly or yearly.
+## Requirements
+  * Access to a computer, smartphone or other devices
+  * Access to internet
 
-# Features
+## Installation Process
+ * Clone to this repo : git clone https://github.com/ahmedalli20/Dairy-Business
+ * Unzip the downloaded files in a folder of choice.
+ * Open the index file from the zipped file with any browser.
 
+## Live Link
+  * Click this link to view the live application
 
-# Requirements
+## Technology Used
+ * HTML - which was used to develop the structure of the pages.
+ * CSS - which was used to style the User Interface.
 
-
-# Installation Process
-
-
-# Live Link
-
-
-# Technology Used
-
-
-# Licence
+## Licence
 MIT License
 
 Copyright (c) 2022 Ahmed Ali
