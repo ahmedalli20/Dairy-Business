@@ -70,7 +70,7 @@ button:hover {
 
 .home {
     /* background-image: url("./images/Dairy-cows-scaled.jpg"); */
-    background-image: url("./images/milk.jpg");
+   
     display: flex;
 
 
@@ -96,7 +96,7 @@ button:hover {
 }
 
 hr {
-    margin: 20px 7px;
+    margin: 30px 7px;
     font-size: 120px;
 }
 
@@ -160,3 +160,20 @@ hr {
     font-size: 20px;
 
 }
+
+
+.images{
+    display: flex;
+    padding: 20px;
+}
+.images img{
+    width: 55%;
+}
+
+.texts{
+    background-image: url("./images/milk.jpg");
+    line-height: 62px;
+    font-size: 40px;
+}
+
+.
