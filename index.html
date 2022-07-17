@@ -43,11 +43,7 @@
         </div>
 
         <img src="./images/milk.jpg" alt="">
-        <!--         
-       
-        <img src="./images/image4.webp" alt="">
-        <img src="./images/image1.jpg" alt="">
-        <img src="./images/milking.jpeg" alt=""> -->
+
     </div>
 
     <hr>
@@ -59,27 +55,51 @@
             Shed Three <input id="input3" type="number" placeholder="Shed c"><br>
             Shed Four <input id="input4" type="number" placeholder=" Shed D"><br>
             Price per litre<input id="input5" type="number" placeholder="Price Per Litre"></p><br>
+            <div class="choices">
+                <h3>Choose the time period</h3>
+                <input type="radio" name="choice" id="weekly" value="weekly"><label>weekly</label>
+                <input type="radio" name="choice" id="yearly" value="yearly"><label>yearly</label>
+            </div>
+            <div class="butons">
+                <button id="myBtn" onclick="totalProduction()">Total Production</button>
+                <button id="myBtn2" onclick="calculateIncome()">Calculate Income</button>
+                <button id="myBtn4" onclick="incomeLeapYear()"> Income leap year </button>
+
+            </div>
         </div>
         <div class="output">
             <p id="display"></p>
         </div>
     </div>
-    <div class="choices">
-        <h3>Choose the time period</h3>
-        <input type="radio" name="choice" id="weekly" value="weekly"><label>weekly</label>
-        <input type="radio" name="choice" id="yearly" value="yearly"><label>yearly</label>
-    </div>
-    <div class="butons">
-        <button id="myBtn" onclick="totalProduction()">Total Production</button>
-        <button id="myBtn2" onclick="calculateIncome()">Calculate Income</button>
-        <button id="myBtn4" onclick="incomeLeapYear()"> Income leap year </button>
+
+    <hr>
+
+
+    <div class="images">
+        <!-- <img src="./images/image1.jpg" alt=""> -->
+        <!-- <img src="./images/milking.jpeg" alt="">  -->
+        <img src="./images/image4.webp" alt="">
+
+        <div class="texts">
+            <h2>Dairy Business</h2>
+            <p> We are in the era of technology. It has become essential to leverage technology for succeeding and
+                achieving set goals.<br>
+                If you are still using those age-old methods of managing your dairy farm, you’re simply letting your
+                rivals stay ahead in the game. <br>
+                This affects not only your performance but also it affects the overall outcome. </p>
+            <p>Running a successful dairy requires more than working hard.  It requires working smart.</p>
+            </div>
 
     </div>
+   <hr>
+    <div class="footer">
 
 
 
 
 
+
+    </div>
 
 
     <script src="./assets/js/index.js"></script>
